@@ -1,0 +1,157 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+table, th, td {
+  border: 1px solid  rgb(66, 2, 2); ;
+  width: 600px;
+  vertical-align: center;
+  padding: 1px;
+  font-size: 11px;
+  
+}
+
+tbody tr:hover {
+  background-color:  rgb(216, 209, 156); 
+}
+
+thead {
+  background-color:  rgb(66, 2, 2); 
+  color:rgb(216, 209, 156); 
+}
+
+button {
+  background-color: rgb(66, 2, 2); 
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  width: 120px;
+  border-radius: 4px;
+  white-space: normal;
+}
+
+
+input[type="button"] {
+  background-color: rgb(66, 2, 2); 
+  border: none;
+  color: white;  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 9px;
+  width: 100%;
+  height: 20px;
+  border-radius: 4px;
+  white-space: normal;
+}
+
+input[type="button"]:hover{
+  color: red;
+}
+
+button:hover{
+  color: red;
+}
+
+
+
+/* unvisited link */
+a:link {
+  color: rgb(66, 2, 2); 
+  
+}
+
+/* visited link */
+a:visited {
+  color: rgb(61, 56,21);
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* selected link */
+a:active {
+  color: rgb(117, 3, 3);
+}
+
+
+
+.logo{
+  width: 600px;
+  margin-top: 10px;
+}
+
+.welcome{
+  float: right;
+  color: rgb(216, 209, 156); 
+}
+
+.nav{
+  width: 600px;
+  background-color: rgb(66, 2, 2);  
+  margin-top: 0px;
+  margin-bottom: 30px;
+ 
+  
+
+}
+
+/* unvisited link */
+a.nav:link {
+  color: rgb(216, 209, 156); 
+}
+
+/* visited link */
+a.nav:visited {
+  color: rgb(226, 199,87);
+}
+
+/* mouse over link */
+a.nav:hover {
+  color: rgb(216, 209, 156); 
+  font-size: 15px;
+  
+}
+
+/* selected link */
+a.nav:active {
+  color: rgb(117, 3, 3);
+}
+
+
+
+
+body{
+  background-color: rgba(229, 212, 82);
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 15px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.header {
+  background-color: rgb(12, 1, 1);
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+h2{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}

@@ -1,0 +1,106 @@
+{
+    "data": {
+        "john@doe.com": {
+            "name": "John",
+            "lastName": "Doe",
+            "email": "john@doe.com",
+            "password": "$2y$10$9hnE4nQTQXuhY11VmRXlb.vcUeZuKkGjH19vc1xQbKy4gld9FaAyW",
+            "paymentDetails": {
+                "cardNo": "1111111111111111",
+                "expirationMonth": "01",
+                "expirationYear": "22",
+                "CVV": "222"
+            },
+            "tempRental": {
+                "total": "",
+                "hours": "1",
+                "date": "08\/12\/2019 10:57 AM",
+                "car": "",
+                "company": "",
+                "location": "London"
+            },
+            "rentals": {
+                "67717713": {
+                    "total": 1200,
+                    "hours": "6",
+                    "date": "07\/04\/2019 5:17 AM",
+                    "car": "Car 1",
+                    "company": "Company 2",
+                    "location": "Roskilde"
+                },
+                "28668844": {
+                    "total": 1000,
+                    "hours": "5",
+                    "date": "08\/08\/2019 7:15 AM",
+                    "car": "Car 1",
+                    "company": "Company 2",
+                    "location": "Valby"
+                },
+                "99163145": {
+                    "total": 200,
+                    "hours": "1",
+                    "date": "08\/06\/2019 11:00 PM",
+                    "car": "Car 1",
+                    "company": "Company 2",
+                    "location": "Roskilde"
+                },
+                "88530970": {
+                    "total": 900,
+                    "hours": "3",
+                    "date": "08\/11\/2019 5:48 AM",
+                    "car": "Car 2",
+                    "company": "Company 2",
+                    "location": "London"
+                },
+                "79437034": {
+                    "total": 800,
+                    "hours": "4",
+                    "date": "08\/11\/2019 6:05 AM",
+                    "car": "Car 1",
+                    "company": "Company 1",
+                    "location": "Oregon"
+                },
+                "85472829": {
+                    "total": 600,
+                    "hours": "3",
+                    "date": "08\/21\/2019 10:00 PM",
+                    "car": "Car 1",
+                    "company": "Company 3",
+                    "location": "Roskilde"
+                },
+                "12309599": {
+                    "total": 1100,
+                    "hours": "5",
+                    "date": "08\/28\/2019 9:54 PM",
+                    "car": "Car 3",
+                    "company": "Company 3",
+                    "location": "Roswell"
+                },
+                "44037365": {
+                    "total": 300,
+                    "hours": "1",
+                    "date": "08\/14\/2019 9:55 PM",
+                    "car": "Car 2",
+                    "company": "Company 2",
+                    "location": "Roskilde"
+                },
+                "70800970": {
+                    "total": 1100,
+                    "hours": "5",
+                    "date": "08\/28\/2019 1:07 AM",
+                    "car": "Car 3",
+                    "company": "Company 2",
+                    "location": "London"
+                },
+                "33422783": {
+                    "total": 1400,
+                    "hours": "7",
+                    "date": "08\/21\/2019 1:49 AM",
+                    "car": "Car 1",
+                    "company": "Company 3",
+                    "location": "Copenhagen"
+                }
+            }
+        }
+    }
+}

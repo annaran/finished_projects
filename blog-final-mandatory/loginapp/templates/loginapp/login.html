@@ -1,0 +1,53 @@
+{% extends "blog/base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+
+    {% if messages %}
+        {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endif %}
+
+
+    <div class="container">
+        <div class="content-section">
+            <form action="." method="POST">
+                <fieldset class="form-group">
+
+                    <legend class="border-bottom mb-4">Log In</legend>
+                    {% csrf_token %}
+                    <label for="user">Username</label>
+                    <br/>
+                    <input type="text" class="form-control" id="user" name="user" placeholder="User Name">
+                    <br/>
+                    <label for="password">Password</label>
+                    <br/>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                    <br/>
+                </fieldset>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-info" value="Log In">
+                </div>
+            </form>
+            <div class="border-top pt-3">
+                <small class="text-muted">
+                    Don't Have An Account Yet? <a class="ml-2" href="signup">Sign Up</a>
+                </small>
+            </div>
+            <div class="border-top pt-3">
+                <small class="text-muted">
+                    Forgot Password? <a class="ml-2" href="{% url 'loginapp:password_reset' %}">Reset It Here</a>
+                </small>
+            </div>
+        </div>
+    </div>
+    {% if error %}<p class="error">{{ error }}</p>{% endif %}
+
+{% endblock content %}
+
+
+

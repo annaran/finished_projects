@@ -1,0 +1,427 @@
+{
+    "data": {
+        "12345678": {
+            "name": "Admin",
+            "lastName": "Admin",
+            "email": "admin@admin.com",
+            "password": "$2y$10$9hnE4nQTQXuhY11VmRXlb.vcUeZuKkGjH19vc1xQbKy4gld9FaAyW",
+            "cpr": "0000000000",
+            "wrongLoginCounter": 0,
+            "timeBlocked": 0,
+            "balance": 0,
+            "admin": 1,
+            "defaultTransferAccount": "445545654334",
+            "accounts": {
+                "445545654334": {
+                    "balance": 59300,
+                    "type": "standard",
+                    "currency": "dkk",
+                    "status": "1"
+                }
+            },
+            "cards": {},
+            "loans": {},
+            "moneyRequests": {},
+            "transactionsNotRead": {},
+            "transactions": {}
+        },
+        "17999999": {
+            "name": "John",
+            "lastName": "Doe",
+            "email": "john@doe.com",
+            "password": "$2y$10$cQ\/HEEYHFgJmgDMHU5p0p.npaNDLEjb1LH2DckrOVo0oGUQAOtOV2",
+            "cpr": "1212901111",
+            "wrongLoginCounter": 5,
+            "timeBlocked": 1551153509,
+            "balance": 0,
+            "admin": 0,
+            "defaultTransferAccount": "455678765678",
+            "accounts": {
+                "455678765678": {
+                    "balance": 4925,
+                    "type": "standard",
+                    "currency": "dkk",
+                    "status": "2"
+                }
+            },
+            "cards": {},
+            "loans": {},
+            "moneyRequests": {},
+            "transactionsNotRead": {},
+            "transactions": {}
+        },
+        "17888888": {
+            "name": "Jane",
+            "lastName": "Doe",
+            "email": "jane@doe.com",
+            "password": "$2y$10$JvccvmqjtzitCflqxn0P..NYJbBulTkrsBDM5wCpu59dzkO46YH5C",
+            "cpr": "1111562222",
+            "wrongLoginCounter": 0,
+            "timeBlocked": 0,
+            "balance": 0,
+            "admin": 0,
+            "defaultTransferAccount": "333344345433",
+            "accounts": {
+                "333344345433": {
+                    "balance": 2000,
+                    "type": "standard",
+                    "currency": "dkk",
+                    "status": "2"
+                }
+            },
+            "cards": {},
+            "loans": {},
+            "moneyRequests": {},
+            "transactionsNotRead": {},
+            "transactions": {}
+        },
+        "17666666": {
+            "name": "John",
+            "lastName": "Smith",
+            "email": "john@smith.com",
+            "password": "$2y$10$ChSPliZ0Fvsea2jHBu.9A.9yVb1ovWABPCgh3jVwRVYkYFdKA5Y.S",
+            "cpr": "1411770900",
+            "balance": 0,
+            "admin": 0,
+            "defaultTransferAccount": "456546787654",
+            "accounts": {
+                "456546787654": {
+                    "balance": 6200,
+                    "type": "standard",
+                    "currency": "dkk",
+                    "status": "1"
+                },
+                "3345677766567890": {
+                    "balance": 2200,
+                    "type": "savings",
+                    "currency": "dkk",
+                    "status": 1
+                }
+            },
+            "cards": {
+                "6595984425549698": {
+                    "pin": 1848,
+                    "cvv2": 224,
+                    "cardType1": "debit",
+                    "cardType2": "visa",
+                    "expiryDate": "26-02-2022",
+                    "status": "2"
+                },
+                "2625393874577313": {
+                    "pin": "",
+                    "cvv2": 398,
+                    "cardType1": "credit",
+                    "cardType2": "visa",
+                    "expiryDate": "26-02-2022",
+                    "status": "2"
+                }
+            },
+            "loans": {},
+            "moneyRequests": {},
+            "transactionsNotRead": {},
+            "transactions": {},
+            "wrongLoginCounter": 0,
+            "timeBlocked": 0
+        },
+        "17555555": {
+            "name": "Jack",
+            "lastName": "Sparrow",
+            "email": "anna246v@stud.kea.dk",
+            "password": "$2y$10$WFvslPPRxLftXeVB.15mbOwSS0uGud7bkueVipp3vj\/Jwrwy\/bpMu",
+            "cpr": "2207446767",
+            "wrongLoginCounter": 0,
+            "timeBlocked": 0,
+            "balance": 0,
+            "admin": 0,
+            "defaultTransferAccount": "345434543678",
+            "accounts": {
+                "345434543678": {
+                    "balance": 548576,
+                    "type": "standard",
+                    "currency": "dkk",
+                    "status": 1
+                }
+            },
+            "cards": {
+                "8187739930535897": {
+                    "pin": "",
+                    "cvv2": 973,
+                    "cardType1": "credit",
+                    "cardType2": "visa",
+                    "expiryDate": "27-02-2022",
+                    "status": "2"
+                }
+            },
+            "loans": {},
+            "moneyRequests": {},
+            "transactionsNotRead": {},
+            "transactions": {}
+        },
+        "17444444": {
+            "name": "Julie",
+            "lastName": "Jilly",
+            "email": "julie@jilly.com",
+            "password": "$2y$10$1\/WMw2LM\/7hkBB0VHMtPBO7tZzhjQPq\/ZItLwYGmJMi1p1gklUJbu",
+            "cpr": "1203788989",
+            "wrongLoginCounter": 0,
+            "timeBlocked": 1551299777,
+            "balance": 23293,
+            "admin": 0,
+            "defaultTransferAccount": "454545454511",
+            "accounts": {
+                "454545454511": {
+                    "balance": 55986,
+                    "type": "standard",
+                    "currency": "dkk",
+                    "status": 1
+                }
+            },
+            "cards": {
+                "8004080958541251": {
+                    "pin": "",
+                    "cvv2": 374,
+                    "cardType1": "credit",
+                    "cardType2": "visa",
+                    "expiryDate": "Fri-Feb-2024",
+                    "status": "2"
+                }
+            },
+            "loans": {},
+            "moneyRequests": {},
+            "transactionsNotRead": {},
+            "transactions": {}
+        },
+        "17222222": {
+            "name": "Nick",
+            "lastName": "Doe",
+            "email": "nick@time.com",
+            "password": "$2y$10$B.o4MuI.y79UI7DnIkyFeOuuOJPn4g.g\/Sz7OFR.ERdxmNjm4JtgS",
+            "cpr": "2312781111",
+            "wrongLoginCounter": 0,
+            "timeBlocked": 0,
+            "balance": 0,
+            "admin": 0,
+            "accounts": {
+                "588383900130": {
+                    "balance": 0,
+                    "type": "standard",
+                    "currency": "dkk",
+                    "status": 1
+                }
+            },
+            "defaultTransferAccount": "588383900130",
+            "cards": {
+                "7685642548840069": {
+                    "pin": 5035,
+                    "cvv2": 302,
+                    "cardType1": "debit",
+                    "cardType2": "visa",
+                    "expiryDate": "28-02-2022",
+                    "status": 1
+                }
+            },
+            "loans": {},
+            "moneyRequests": {},
+            "transactionsNotRead": {},
+            "transactions": {},
+            "messages": {}
+        },
+        "17333333": {
+            "name": "Jimmy",
+            "lastName": "Joe",
+            "email": "jimmy@joe.com",
+            "password": "$2y$10$ViX7FL886WFvmx9NeDt.7unxx02I5aegFKLsWFYT7vOiGhelN1MM6",
+            "cpr": "2211559999",
+            "wrongLoginCounter": 0,
+            "timeBlocked": 0,
+            "balance": 0,
+            "admin": 0,
+            "accounts": {
+                "525948640035": {
+                    "balance": 0,
+                    "type": "standard",
+                    "currency": "dkk",
+                    "status": 1
+                }
+            },
+            "defaultTransferAccount": "525948640035",
+            "cards": {
+                "9848453625349980": {
+                    "pin": 7819,
+                    "cvv2": 377,
+                    "cardType1": "debit",
+                    "cardType2": "visa",
+                    "expiryDate": "28-02-2022",
+                    "status": 1
+                }
+            },
+            "loans": {},
+            "moneyRequests": {},
+            "transactionsNotRead": {},
+            "transactions": {},
+            "messages": {}
+        },
+        "17111111": {
+            "name": "Nicky",
+            "lastName": "Doe",
+            "email": "nick@time.com",
+            "password": "$2y$10$FyT6cJRDmIurPfXTm.bdOehHQHEQmFHAiQpidmPJITV4Wb7qea2vi",
+            "cpr": "2312781111",
+            "wrongLoginCounter": 0,
+            "timeBlocked": 0,
+            "balance": 0,
+            "admin": 0,
+            "accounts": {
+                "472582151433": {
+                    "balance": 0,
+                    "type": "standard",
+                    "currency": "dkk",
+                    "status": 1
+                }
+            },
+            "defaultTransferAccount": "472582151433",
+            "cards": {
+                "2984060456706578": {
+                    "pin": 7634,
+                    "cvv2": 207,
+                    "cardType1": "debit",
+                    "cardType2": "visa",
+                    "expiryDate": "28-02-2022",
+                    "status": 1
+                }
+            },
+            "loans": {},
+            "moneyRequests": {},
+            "transactionsNotRead": {},
+            "transactions": {},
+            "messages": {}
+        },        
+        "17000002": {
+            "name": "Peggy",
+            "lastName": "Bundy",
+            "email": "peggy@bundy.com",
+            "password": "$2y$10$QUPjJzOBAkYyx3aii\/MYyONnQ.0h7JF8.B1\/QqsnGV3N7OBmerq2i",
+            "cpr": "1112864343",
+            "wrongLoginCounter": 0,
+            "timeBlocked": 0,
+            "balance": 0,
+            "admin": 0,
+            "accounts": {
+                "752713180878": {
+                    "balance": 615,
+                    "type": "standard",
+                    "currency": "dkk",
+                    "status": 1
+                }
+            },
+            "defaultTransferAccount": "752713180878",
+            "cards": {
+                "9418744676369320": {
+                    "pin": 6348,
+                    "cvv2": 820,
+                    "cardType1": "debit",
+                    "cardType2": "visa",
+                    "expiryDate": "28-02-2022",
+                    "status": 1
+                }
+            },
+            "loans": {},
+            "moneyRequests": {
+                "5c8e9980afd1e": {
+                    "amount": "40",
+                    "fromPhone": "17000000",
+                    "message": "please",
+                    "status": 0
+                }
+            },
+            "transactionsNotRead": {
+                "5c85c86e56bc4": {
+                    "date": "11-03-2019 03:31:10",
+                    "amount": "50",
+                    "message": "17000000 approved your money request",
+                    "fromPhone": "17000000"
+                },
+                "5c85c8a704522": {
+                    "date": "11-03-2019 03:32:07",
+                    "amount": "455",
+                    "message": "17000000 approved your money request",
+                    "fromPhone": "17000000"
+                },
+                "5c8dde7cd9c0e": {
+                    "date": "17-03-2019 06:43:24",
+                    "amount": "100",
+                    "message": "gift",
+                    "fromPhone": "17000000"
+                },
+                "5c9128f36d000": {
+                    "date": "19-03-2019 17:37:55",
+                    "amount": "10",
+                    "message": "test",
+                    "fromPhone": "17000000"
+                }
+            },
+            "transactions": {
+                "5c85c86e56bc4": {
+                    "date": "11-03-2019 03:31:10",
+                    "amount": "50",
+                    "message": "17000000 approved your money request",
+                    "fromPhone": "17000000"
+                },
+                "5c85c8a704522": {
+                    "date": "11-03-2019 03:32:07",
+                    "amount": "455",
+                    "message": "17000000 approved your money request",
+                    "fromPhone": "17000000"
+                },
+                "5c8dde7cd9c0e": {
+                    "date": "17-03-2019 06:43:24",
+                    "amount": "100",
+                    "message": "gift",
+                    "fromPhone": "17000000"
+                },
+                "5c9128f36d000": {
+                    "date": "19-03-2019 17:37:55",
+                    "amount": "10",
+                    "message": "test",
+                    "fromPhone": "17000000"
+                }
+            },
+            "messages": {}
+        },
+        "17000003": {
+            "name": "Bud",
+            "lastName": "Bundy",
+            "email": "bud@bundy.com",
+            "password": "$2y$10$zKseLrce4PZveEf5tHa9ye\/vB7lWzvIyLODOU3mbj4bfVJ7pg9tee",
+            "cpr": "2312781111",
+            "wrongLoginCounter": 0,
+            "timeBlocked": 0,
+            "balance": 0,
+            "admin": 0,
+            "accounts": {
+                "447176018402": {
+                    "balance": 0,
+                    "type": "standard",
+                    "currency": "dkk",
+                    "status": 1
+                }
+            },
+            "defaultTransferAccount": "447176018402",
+            "cards": {
+                "7742475992239400": {
+                    "pin": 5982,
+                    "cvv2": 919,
+                    "cardType1": "debit",
+                    "cardType2": "visa",
+                    "expiryDate": "28-02-2022",
+                    "status": 1
+                }
+            },
+            "loans": {},
+            "moneyRequests": {},
+            "transactionsNotRead": {},
+            "transactions": {},
+            "messages": {}
+        }
+    }
+}

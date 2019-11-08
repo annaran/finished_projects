@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 120%;
+    overflow: none;
+    overflow-y: scroll;
+}
+
+nav {
+    display: grid;
+   /* grid-template-columns: 2fr 8fr 2fr;*/
+    grid-template-columns: 6fr 6fr;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    padding: 0px 10%;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    z-index: 3;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav form {
+    position: relative;
+}
+
+nav form svg {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+.undernav {
+
+    display: block;
+    align-items: center;
+    position: static;
+    width: 100%;
+    height: 100%;
+    padding: 76px 35% 0px 35%;
+    z-index: 5;
+}
+
+.profilepic {
+
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px steelblue;
+
+}
+
+
+.startpic {
+    height: 330px;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px steelblue;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+
+.card-title.confrm{
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.card-text.confrm{
+    text-align: left;
+}
+
+.card-text{
+   text-align: center;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+
+}
+
+.card-body button{
+    width: 100%;
+}
+
+
+.myForm{
+    text-align: center;
+}
+
+.myForm button {
+    width: 100%;
+}
+
+
+
+/*for confirmation info*/
+.card.mb-3{
+    text-align: left !important;
+}
+
+
+
+h2{
+    text-align: center;
+    font-size: medium;
+    color: lightslategrey;
+    text-transform: uppercase;
+}
+
+
+/*for payment*/
+.panel-title {display: inline;font-weight: bold;}
+.checkbox.pull-right { margin: 0;    }
+/*#checkbox-remember { width: auto; height: auto;}*/
+.pl-ziro { padding-left: 0px; }
+.container{
+    padding: 100px 20% 30px 20%;
+    width: 100%;
+    min-height: 100%;
+  /*  margin-left: 30%;*/
+
+}
+
+.container-fluid{
+    padding: 100px 20% 30px 20%;
+    width: 100%;
+    min-height: 100%;
+
+    /*  margin-left: 30%;*/
+
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:15%;
+    position:relative;
+    height:0;
+}
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+/*for hours*/
+
+.form-control.text-center{
+    min-width: 50px;
+}
+
+
+
+/*for standard buttons*/
+
+.btn.btn-business{
+    color: #222;
+    border-radius: 2em / 5em;
+    background-color: lightgrey;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn.btn-business:hover{
+    background-color: #222;
+    color: white;
+}
+
+
+
+.btn.btn-rent{
+    color: #222;
+    border-radius: 2em / 5em;
+    background-color: cornflowerblue;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-color: black;
+    text-transform: uppercase;
+
+
+}
+
+.btn.btn-rent:hover{
+    background-color: #222;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+
+/*for next and previous buttons*/
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    color: black;
+}
+
+
+.payment-success a{
+    text-align: center;
+    vertical-align: center;
+    width: 100%;
+}
+
+.previous {
+
+     text-decoration: none;
+     background-color: #f1f1f1;
+     color: black;
+     width: 50%;
+     text-align: left;
+     border-radius: 1em 0em 0em 1em;
+     -webkit-transition-duration: 0.4s; /* Safari */
+     transition-duration: 0.4s;
+ }
+
+
+.btn.btn-previous{
+    margin-top: 5px;
+font-weight: lighter;
+    font-size: 100%;
+    /*padding: 8px 16px;*/
+    text-decoration: none;
+    background-color: #f1f1f1;
+    color: black;
+    width: 50%;
+    text-align: left;
+    border-radius: 1em 0em 0em 1em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.next {
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    width: 50%;
+    text-align: right;
+    border-radius: 0em 1em 1em 0em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+.btn.btn-next{
+    margin-top: 5px;
+    font-weight: lighter;
+    font-size: 100%;
+    /*padding: 8px 16px;*/
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    width: 50%;
+    text-align: right;
+    border-radius: 0em 1em 1em 0em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    color: black;
+}
+
+#btn-profile, #btn-date {
+    display: inline-block;
+    width: calc(50% - 4px);
+    margin: 0 auto;
+}
+
+#btn-location, #btn-hours {
+     display: inline-block;
+     width: calc(50% - 4px);
+     margin: 0 auto;
+ }
+
+#btn-company-bk, #btn-confirmation {
+    display: inline-block;
+    width: calc(50% - 4px);
+    margin: 0 auto;
+}
+
+#btn-company, #btn-date-bk {
+    display: inline-block;
+    width: calc(50% - 4px);
+    margin: 0 auto;
+}
+
+#btn-hours-bk, #btn-car {
+    display: inline-block;
+    width: calc(50% - 4px);
+    margin: 0 auto;
+}
+
+#btn-payment, #btn-car-bk {
+    display: inline-block;
+    width: calc(50% - 4px);
+    margin: 0 auto;
+}
+
+
+.btn-login{
+    text-decoration: none;
+    background-color: #222;
+    color: steelblue;
+    width: 50%;
+    text-align: center;
+    border-radius: 0em 0em 0em 0em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn-signup{
+    text-decoration: none;
+    background-color: #222;
+    color: steelblue;
+    width: 50%;
+    text-align: center;
+    border-radius: 0em 0em 0em 0em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+/***********************************************************
+///////////////////////////////////////////////////// */
+
+
+
+/**************************************************/
+/**************************************************/
+/**************************************************/
+.pullRight {
+    text-align: right;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+
+.sm {
+    font-size: 80%;
+}
+
+.lg {
+    font-size: 120%;
+}
+
+.xlg {
+    font-size: 150%;
+}
+
+.strong {
+    font-weight: 400;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/**************************************************/
+/**************************************************/
+/**************************************************/
+
+
+/**************************************************/
+/**************************************************/
+/**************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
